@@ -1,43 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index-styles.css"/>
-    <title>Catálogo FUT</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1.0" />
+  <meta name="description" content="Landing page da F4Life, a sua moradia universitária." />
+  <title>F4Life - A sua moradia universitária</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
 </head>
+
 <body>
-    <header>
-
-    </header>
-    <main>
-        <ul>
-            <li>
-                <div class="card icon">
-                    <div class="rating">98</div>
-                    <div class="position">CAM</div>
-                    <div class="nation">
-                        <img class="brazil">
-                    </div>
-                    <div class="club">
-                        <img class="icons">
-                    </div>
-                    <div class="picture">
-                        <img class="pele">
-                    </div>
-                    <div class="name">Pelé</div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    Maradona
-                </div>
-            </li>
-        </ul>
-    </main>
-    <footer>
-
-    </footer>
+  <header>
+    <img src="./images/f4life-logo.png" alt="F4Life" class="header__image" />
+    <nav>
+      <a href="#quemSomos">Quem Somos</a>
+      <a href="#nossaMissao">Nossa Missão</a>
+      <a href="#faleConosco">Fale Conosco</a>
+    </nav>
+  </header>
+  <main>
+    <section class="section--standart" id="quemSomos">
+      <h2>Quem Somos</h2>
+      <p>
+        A F4Life é uma empresa de aluguéis de moradias compartilhadas ou
+        kitnets para pessoas universitárias. Todos os nossos imóveis contam
+        com uma infraestrutura completa e otimizada para estudos individuais
+        ou em grupo.
+      </p>
+      <p>
+        Ademais, as nossas moradias, sejam elas compartilhadas ou kitnets,
+        foram reformadas e preparadas para serem a moradia de pessoas
+        universitárias, com ambientes planejados especificamente para a vida
+        durante a gradução. Com detalhes pensados para facilitar o dia a dia
+        de quem estuda.
+      </p>
+    </section>
+    <section class="section--standart" id="nossaMissao">
+      <h2>Nossa Missão</h2>
+      <p>
+        Nossa empresa surgiu com a missão de facilitar o aluguel de moradias
+        compartilhadas e kitnets para pessoas universitárias, pois o aluguel
+        tradicional é repleto de burocracias e exigências que são difíceis de
+        serem cumpridas por quem está começando a sua vida acadêmica.
+      </p>
+      <p>
+        Sendo assim, a nossa misão é tornar mais fácil a vida das pessoas
+        universitárias, fazendo com que elas possam se dedicar o máximo
+        possível na graduação. Não sendo necessário se preocupar com processos
+        burocráticos de aluguel ou em buscar ambientes adequados e
+        estruturados para quem está na graduação.
+      </p>
+      <img src="./images/estudantes.jpg" alt="Jovens estudando em grupo." class="section__image" />
+    </section>
+    <section class="section--standart" id="faleConosco">
+      <h2>Fale Conosco</h2>
+      <form class="form--standart">
+        <label for="name" class="form__label">Nome:</label>
+        <input type="text" name="name" id="name" class="form__input" placeholder="Insira o seu nome" />
+        <label for="email" class="form__label">E-mail: *</label>
+        <input type="email" name="email" id="email" class="form__input" placeholder="seuemail@seuemail.com" />
+        <label for="text" class="form__label">Mensagem: *</label>
+        <textarea name="message" id="message" class="form__textarea" placeholder="Digite a sua mensagem"></textarea>
+        <button class="form__button" type="submit" onclick="enviarMensagem(event)">
+          Enviar
+        </button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><img src="./images/twitter-logo.png"
+        alt="Twitter" class="footer__image" /></a>
+    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="./images/facebook-logo.png"
+        alt="Facebook" class="footer__image" /></a>
+    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="./images/instagram-logo.png"
+        alt="Instagram" class="footer__image" /></a>
+    <p>&copy; 2022 F4Life</p>
+  </footer>
+  <script src="./scripts/main.js"></script>
 </body>
+
 </html>
