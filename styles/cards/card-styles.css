@@ -13,14 +13,15 @@
 
 .rating {
   font-family: 'Oxygen Mono', sans-serif;
-  top: 68px;
-  left: 45px;
+  top: 65px;
+  left: 55px;
   width: 50px;
   text-align: center;
   /* font-size: 44px; */
   font-size: 34px;
   font-weight: bold;
   line-height: 44px;
+  z-index: 11;
 }
 
 .position {
@@ -30,13 +31,15 @@
   /* font-weight: bold; */
   text-align: center;
   top: 93px;
-  left: 45px;
+  left: 55px;
   width: 50px;
+  z-index: 11;
 }
 
 .nation {
   top: 123px;
-  left: 50px;
+  left: 60px;
+  z-index: 11;
 }
 
 .nation img {
@@ -47,7 +50,8 @@
 
 .club {
   top: 157px;
-  left: 50px;
+  left: 60px;
+  z-index: 11;
 }
 
 .club img {
@@ -58,8 +62,8 @@
 .picture {
   width: 155px;
   height: 155px;
-  top: 47px;
-  right: 30px;
+  top: 50px;
+  right: 40px;
   overflow: hidden;
 }
 
@@ -69,57 +73,21 @@
 }
 
 .name {
+  font-family: 'Oxygen Mono', sans-serif;
   font-size: 28px;
   left: 25px;
-  top: 210px;
+  top: 212px;
   width: 230px;
   white-space: nowrap;
-  overflow: hidden;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
-}
-
-.nation-split {
-  height: 30px;
-  width: 26px;
-  left: 56px;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-  position: absolute;
-  top: 118px;
-}
-
-.name-split {
-  height: 1px;
-  width: 150px;
-  left: 65px;
-  border-bottom: 1px solid;
-  position: absolute;
-  top: 238px;
-}
-
-.atts-split {
-  height: 65px;
-  width: 1px;
-  left: 140px;
-  border-left: 1px solid;
-  position: absolute;
-  top: 249px;
-}
-
-.bottom-split {
-  height: 1px;
-  width: 30px;
-  left: 125px;
-  border-bottom: 1px solid;
-  position: absolute;
-  top: 324px;
+  z-index: 11;
 }
 
 .attributes {
   position: absolute;
-  top: 238px;
+  top: 242px;
   left: 64px;
   z-index: 11;
 }
@@ -164,3 +132,56 @@
   left: 90px;
   top: 54px;
 }
+
+.card-split {
+  z-index: 11;
+}
+
+.headeroverlay {
+  width: 50px;
+  height: 250px;
+  position: absolute;
+  left: 54px;
+  top: 35px;
+  opacity: .7;
+  z-index: 10;
+  display: none;
+}
+
+.nation-split {
+  height: 30px;
+  width: 26px;
+  left: 66px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  position: absolute;
+  top: 118px;
+}
+
+.name-split {
+  height: 1px;
+  width: 150px;
+  left: 65px;
+  border-bottom: 1px solid;
+  position: absolute;
+  top: 238px;
+}
+
+.atts-split {
+  height: 65px;
+  width: 1px;
+  left: 140px;
+  border-left: 1px solid;
+  position: absolute;
+  top: 249px;
+}
+
+.bottom-split {
+  height: 1px;
+  width: 30px;
+  left: 125px;
+  border-bottom: 1px solid;
+  position: absolute;
+  top: 324px;
+}
+

@@ -1,3 +1,27 @@
-.nation .brazil {
+.nation > .brazil {
   content: url(https://www.fifplay.com/img/fifa/23/nations/54.png);
+}
+
+.nation > .france {
+  content: url(https://www.futwiz.com/assets/img/fifa23/flags/18.png);
+}
+
+.nation > .portugal {
+  content: url(https://www.futwiz.com/assets/img/fifa23/flags/38.png);
+}
+
+.nation > .norway {
+  content: url(https://www.fifplay.com/img/fifa/23/nations/36.png);
+}
+
+.nation > .argentina {
+  content: url(https://www.fifplay.com/img/fifa/23/nations/52.png);
+}
+
+.nation > .spain {
+  content: url(https://www.fifplay.com/img/fifa/23/nations/45.png);
+}
+
+.nation > .germany {
+  content: url(https://www.fifplay.com/img/fifa/23/nations/21.png);
 }

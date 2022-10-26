@@ -1,3 +1,35 @@
-.club .icons {
+.club > .icons {
   content: url(https://www.fifplay.com/img/fifa/23/clubs/112658.png);
+}
+
+.club > .real-madrid {
+  content: url(https://www.futwiz.com/assets/img/fifa23/badges/243.png);
+}
+
+.club > .man-utd {
+  content: url(https://www.futwiz.com/assets/img/fifa23/badges/11.png);
+}
+
+.club > .psg {
+  content: url(https://www.futwiz.com/assets/img/fifa22/badges/73.png);
+}
+
+.club > .man-city {
+  content: url(https://www.fifplay.com/img/fifa/23/clubs/10.png);
+}
+
+.club > .west-ham {
+  content: url(https://www.fifplay.com/img/fifa/23/clubs/19.png);
+}
+
+.club > .tottenham {
+  content: url(https://www.fifplay.com/img/fifa/23/clubs/18.png);
+}
+
+.club > .athletic-madrid {
+  content: url(https://www.fifplay.com/img/fifa/23/clubs/240.png);
+}
+
+.club > .bayern {
+  content: url(https://www.fifplay.com/img/fifa/23/clubs/21.png);
 }

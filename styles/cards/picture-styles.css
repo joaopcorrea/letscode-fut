@@ -1,3 +1,63 @@
-.picture .pele {
+.picture > .pele {
   content: url(https://www.fifplay.com/img/fifa/23/players/237067.png);
+}
+
+.picture > .ronaldo {
+  content: url(https://www.futwiz.com/assets/img/fifa23/faces/37576.png);
+}
+
+.picture > .benzema {
+  content: url(https://www.fifplay.com/img/fifa/22/players/p218268961.png);
+}
+
+.picture > .cristiano-ronaldo {
+  content: url(https://www.futwiz.com/assets/img/fifa23/faces/50352449.png);
+}
+
+.picture > .neymar {
+  content: url(https://www.futwiz.com/assets/img/fifa22/faces/151185815.png);
+}
+
+.picture > .haaland {
+  content: url(https://www.futwiz.com/assets/img/fifa22/faces/239085.png);
+}
+
+.picture > .vinicius {
+  content: url(https://www.fifplay.com/img/fifa/23/players/238794.png);
+}
+
+.picture > .messi {
+  content: url(https://www.fifplay.com/img/fifa/23/players/p50489671.png);
+}
+
+.picture > .maradona {
+  content: url(https://www.fifplay.com/img/fifa/22/players/237074.png);
+}
+
+.picture > .ronaldinho {
+  content: url(https://www.fifplay.com/img/fifa/21/players/p246472.png);
+}
+
+.picture > .paqueta {
+  content: url(https://www.fifplay.com/img/fifa/23/players/233927.png);
+}
+
+.picture > .sergio-ramos {
+  content: url(https://www.fifplay.com/img/fifa/23/players/155862.png);
+}
+
+.picture > .mbappe {
+  content: url(https://www.fifplay.com/img/fifa/22/players/p151226691.png);
+}
+
+.picture > .richarlison {
+  content: url(https://www.fifplay.com/img/fifa/23/players/231943.png);
+}
+
+.picture > .joao-felix {
+  content: url(https://www.fifplay.com/img/fifa/23/players/242444.png);
+}
+
+.picture > .neuer {
+  content: url(https://www.fifplay.com/img/fifa/22/players/p100830791.png);
 }
