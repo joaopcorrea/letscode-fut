@@ -1,0 +1,31 @@
+.cardtype-icon {
+  background: url(https://www.fifplay.com/img/fifa/23/cards/1_12_0.png) no-repeat;
+  background-size: contain;
+  color: #50442b;
+  border-color: #9d8957;
+}
+
+.cardtype-dynamic-duos {
+  background: url(https://www.fifplay.com/img/fifa/23/cards/1_150_0.png) no-repeat;
+  background-size: contain;
+}
+
+.cardtype-rulebreakers {
+  background: url(https://www.fifplay.com/img/fifa/23/cards/1_22_0.png) no-repeat;
+  background-size: contain;
+}
+
+.cardtype-bronze {
+  background: url(https://www.fifplay.com/img/fifa/23/cards/1_1_1.png) no-repeat;
+  background-size: contain;
+}
+
+.cardtype-silver {
+  background: url(https://www.fifplay.com/img/fifa/23/cards/1_1_2.png) no-repeat;
+  background-size: contain;
+}
+
+.cardtype-gold {
+  background: url(https://www.fifplay.com/img/fifa/23/cards/1_1_3.png) no-repeat;
+  background-size: contain;
+}

@@ -1,112 +1,19 @@
-.card {
-    height: 300px;
-    width: auto;
-    position: relative;
-}
 
-.card div {
-    position: absolute;
-    text-align: center;
-    line-height: 22px;
-}
 
-.rating {
-    top: 45px;
-    left: 41px;
-    /* font-size: 41px; */
-    font-size: 2em;
-    font-weight: bold;
-    line-height: 44px;
-}
 
-.position {
-    /* font-size: 22px; */
-    font-size: 1em;
-    font-weight: bold;
-    text-align: center;
-    top: 84px;
-    left: 41px;
-}
 
-.nation {
-    top: 109px;
-    left: 41px;
-}
 
-.nation img {
-    max-width: 34px;
-    max-height: 21px;
-    height: auto;
-    border: 0;
-}
 
-.nation .brazil {
-    content: url(https://www.fifplay.com/img/fifa/23/nations/54.png);
-}
 
-.club {
-    top: 138px;
-    left: 41px;
-}
 
-.club img {
-    max-width: 35px;
-}
 
-.club .icons {
-    content: url(https://www.fifplay.com/img/fifa/23/clubs/112658.png);
-}
 
-.picture {
-    width: 128px;
-    height: 128px;
-    top: 54px;
-    left: 81px;
-}
 
-.picture img {
-    height: auto;
-    max-width: 100%;
-}
 
-.picture .pele {
-    content: url(https://www.fifplay.com/img/fifa/23/players/237067.png);
-}
 
-.name {
-    font-size: 23px;
-    left: 75px;
-    top: 187px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
 
-.icon {
-    background: url(https://www.fifplay.com/img/fifa/23/cards/1_12_0.png) no-repeat;
-    background-size: contain;
-}
 
-.dynamic-duos {
-    background: url(https://www.fifplay.com/img/fifa/23/cards/1_150_0.png) no-repeat;
-    background-size: contain;
-}
 
-.rulebreakers {
-    background: url(https://www.fifplay.com/img/fifa/23/cards/1_22_0.png) no-repeat;
-    background-size: contain;
-}
 
-.bronze {
-    background: url(https://www.fifplay.com/img/fifa/23/cards/1_1_1.png) no-repeat;
-    background-size: contain;
-}
 
-.silver {
-    background: url(https://www.fifplay.com/img/fifa/23/cards/1_1_2.png) no-repeat;
-    background-size: contain;
-}
 
-.gold {
-    background: url(https://www.fifplay.com/img/fifa/23/cards/1_1_3.png) no-repeat;
-    background-size: contain;
-}
