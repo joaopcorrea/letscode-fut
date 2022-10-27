@@ -3,28 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width initial-scale=1.0" />
-  <meta name="description" content="Login page da FutCards, o card game para amantes de futebol." />
-  <title>FutCards - O card game para amantes de futebol</title>
+  <meta name="description" content="Preços dos jogadores de FutCards, o card game para amantes de futebol." />
+  <title>Preços - FutCards - O card game para amantes de futebol</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
   <link rel="stylesheet" href="./styles/reset.css" />
-  <link rel="stylesheet" href="./styles/stylelogin.css" />
+  <link rel="stylesheet" href="./styles/styleprices.css" />
 </head>
 <body>
   <header>
     <img src="./images/f4life-logo.png" alt="FutCards" class="header__image" />
+    <nav>
+      <a href="./home.html">Home</a>
+      <a href="./prices.html">Preços</a>
+      <a href="./contact.html">Fale Conosco</a>
+      <a href="./index.html">Sair</a>
+    </nav>
   </header>
   <main>
-    <section class="section--standart" id="loginSection">
-      <h2>Login</h2>
-      <form class="form--standart">
-        <input type="text" name="login" id="login" class="form__input" placeholder="Login" />
-        <input type="password" name="password" id="password" class="form__input" placeholder="Senha" />
-        <button class="form__button" type="button" onclick="tryLogin(event)">
-          Login
-        </button>
-      </form>
+    <section class="section--standart" id="prices">
+      <h2>Preços</h2>
+      <table class="section__table">
+        <tr>
+          <th>Tipo de Jogador</th>
+          <th>Valor</th>
+        </tr>
+        <tr>
+          <td>Legend</td>
+          <td>$100M</td>
+        </tr>
+        <tr>
+          <td>Gold</td>
+          <td>$75M</td>
+        </tr>
+        <tr>
+          <td>Silver</td>
+          <td>$50M</td>
+        </tr>
+        <tr>
+          <td>Bronze</td>
+          <td>$25M</td>
+        </tr>
+      </table>
     </section>
   </main>
   <footer>
@@ -36,6 +57,5 @@
         alt="Instagram" class="footer__image" /></a>
     <p>&copy; 2022 FutCards</p>
   </footer>
-  <script src="./scripts/login.js"></script>
 </body>
 </html>

@@ -1,5 +1,7 @@
 /*
 
-Este repositório contém a landing page que foi desenvolvida como projeto final do módulo Front End Estático da Let's Code.
+Este repositório contém o site que foi desenvolvido como projeto final do módulo Front End Estático da Let's Code.
+
+Alunos: João Pedro e Amanda
 
 */
