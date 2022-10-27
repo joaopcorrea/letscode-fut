@@ -46,6 +46,11 @@
 .cardtype-bronze {
   background: url(https://www.fifplay.com/img/fifa/23/cards/1_1_1.png) no-repeat;
   background-size: contain;
+  color: #2b2217;
+}
+
+.cardtype-bronze>.card-split {
+  border-color: #c69882;
 }
 
 .cardtype-silver {
