@@ -4,15 +4,22 @@ body {
 
 header {
   background: #132235;
-  padding: 50px 0;
+  background: linear-gradient(
+    rgba(0,0,0, 100%),
+    #132235
+  ) ;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .header__image {
   margin: 0 10%;
+  height: 100px;
 }
 
 nav {
-  position: absolute;
   top: 150px;
   right: 15%;
 }
@@ -39,7 +46,10 @@ main {
 }
 
 .section--standart {
-  height: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .section--standart h2 {
