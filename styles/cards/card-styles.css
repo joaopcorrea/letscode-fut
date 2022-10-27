@@ -1,0 +1,187 @@
+.card {
+  height: 394px;
+  width: 285px;
+  position: relative;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.card div {
+  position: absolute;
+  text-align: center;
+  line-height: 22px;
+}
+
+.rating {
+  font-family: 'Oxygen Mono', sans-serif;
+  top: 65px;
+  left: 55px;
+  width: 50px;
+  text-align: center;
+  /* font-size: 44px; */
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 44px;
+  z-index: 11;
+}
+
+.position {
+  font-family: 'Oxygen Mono', sans-serif;
+  /* font-size: 22px; */
+  font-size: 22px;
+  /* font-weight: bold; */
+  text-align: center;
+  top: 93px;
+  left: 55px;
+  width: 50px;
+  z-index: 11;
+}
+
+.nation {
+  top: 123px;
+  left: 60px;
+  z-index: 11;
+}
+
+.nation img {
+  width: 38px;
+  height: 22px;
+  border: 0;
+}
+
+.club {
+  top: 157px;
+  left: 60px;
+  z-index: 11;
+}
+
+.club img {
+  height: 38px;
+  width: 38px;
+}
+
+.picture {
+  width: 155px;
+  height: 155px;
+  top: 50px;
+  right: 40px;
+  overflow: hidden;
+}
+
+.picture img {
+  height: auto;
+  max-width: 100%;
+}
+
+.name {
+  font-family: 'Oxygen Mono', sans-serif;
+  font-size: 28px;
+  left: 25px;
+  top: 212px;
+  width: 230px;
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  z-index: 11;
+}
+
+.attributes {
+  position: absolute;
+  top: 242px;
+  left: 64px;
+  z-index: 11;
+}
+
+.attributes .attnum {
+  font-family: 'Oxygen Mono', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  font-weight: bold;
+}
+
+.attributes .attlabel {
+  font-family: 'Oxygen Mono', sans-serif;
+  position: absolute;
+  font-size: 20px;
+  left: 27px;
+}
+
+.attributes > .pac {
+  top: 5px;
+}
+
+.attributes > .sho {
+  top: 30px;
+}
+
+.attributes > .pas {
+  top: 54px;
+}
+
+.attributes > .dri {
+  top: 5px;
+  left: 90px;
+}
+
+.attributes > .def {
+  left: 90px;
+  top: 30px;
+}
+
+.attributes > .phy {
+  left: 90px;
+  top: 54px;
+}
+
+.card-split {
+  z-index: 11;
+}
+
+.headeroverlay {
+  width: 50px;
+  height: 250px;
+  position: absolute;
+  left: 54px;
+  top: 35px;
+  opacity: .7;
+  z-index: 10;
+  display: none;
+}
+
+.nation-split {
+  height: 30px;
+  width: 26px;
+  left: 66px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  position: absolute;
+  top: 118px;
+}
+
+.name-split {
+  height: 1px;
+  width: 150px;
+  left: 65px;
+  border-bottom: 1px solid;
+  position: absolute;
+  top: 238px;
+}
+
+.atts-split {
+  height: 65px;
+  width: 1px;
+  left: 140px;
+  border-left: 1px solid;
+  position: absolute;
+  top: 249px;
+}
+
+.bottom-split {
+  height: 1px;
+  width: 30px;
+  left: 125px;
+  border-bottom: 1px solid;
+  position: absolute;
+  top: 324px;
+}
+
