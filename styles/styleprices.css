@@ -1,0 +1,55 @@
+table {
+    table-layout: fixed;
+    width: 500px;
+    margin: 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+table:hover {
+    transform: scale(1.1);
+    transition: 250ms;
+}
+
+th,
+td {
+    border: 2px #0D3600;
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 10px;
+    font-weight: bold;
+}
+
+th {
+    font-size: 20px;
+    color: #0D3600;
+    background-color: #47972E;
+}
+
+th:hover {
+    color: #ffffff;
+}
+
+td {
+    color: #82c46e;
+    background-color: #0D3600;
+}
+
+td img {
+    width: 7%;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+td:hover {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1023px) {
+    table {
+        width: 80%;
+    }
+}
