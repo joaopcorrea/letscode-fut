@@ -4,32 +4,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width initial-scale=1.0" />
   <meta name="description" content="Formulário de contato da FutCards, o card game para amantes de futebol." />
-  <title>Fale Conosco - FutCards - O card game para amantes de futebol</title>
+  <title>Contato - FutCards - O card game para amantes de futebol</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
-  <link rel="stylesheet" href="./styles/reset.css" />
-  <link rel="stylesheet" href="./styles/style-alternative.css" />
-  <link rel="stylesheet" href="./styles/stylecontact.css" />
+  <link rel="stylesheet" href="../styles/reset.css" />
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link rel="stylesheet" href="../styles/stylecontact.css" />
 </head>
 <body>
   <header>
-    <img src="./images/logo.png" alt="FutCards" class="header__image" />
+    <img src="../images/logo.png" alt="FutCards" class="header__image" />
     <nav>
       <a href="./home.html">Home</a>
       <a href="./prices.html">Preços</a>
-      <a href="./contact.html">Fale Conosco</a>
+      <a href="./contact.html">Contato</a>
       <a href="./login.html">Sair</a>
     </nav>
   </header>
   <main>
     <section class="section--standart" id="contact">
-      <h2>Fale Conosco</h2>
+      <h2>Contato</h2>
       <form class="form--standart">
         <label for="name" class="form__label">Nome:</label>
         <input type="text" name="name" id="name" class="form__input" placeholder="Insira o seu nome" />
         <label for="email" class="form__label">E-mail:</label>
         <input type="email" name="email" id="email" class="form__input" placeholder="seuemail@seuemail.com" />
+        <label for="subject" class="form__label">Assunto:</label>
+        <input type="text" name="subject" id="subject" class="form__input" placeholder="Insira o assunto" />
         <label for="text" class="form__label">Mensagem:</label>
         <textarea name="message" id="message" class="form__textarea" placeholder="Digite a sua mensagem"></textarea>
         <button class="form__button" type="submit" onclick="sendMessage(event)">
@@ -42,17 +44,17 @@
     <nav>
       <a href="./home.html">Home</a>
       <a href="./prices.html">Preços</a>
-      <a href="./contact.html">Fale Conosco</a>
+      <a href="./contact.html">Contato</a>
       <a href="./login.html">Sair</a>
     </nav>
-    <a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><img src="./images/twitter-logo.png"
+    <a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><img src="../images/twitter-logo.png"
         alt="Twitter" class="footer__image" /></a>
-    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="./images/facebook-logo.png"
+    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="../images/facebook-logo.png"
         alt="Facebook" class="footer__image" /></a>
-    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="./images/instagram-logo.png"
+    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="../images/instagram-logo.png"
         alt="Instagram" class="footer__image" /></a>
     <p>&copy; 2022 FutCards</p>
   </footer>
-  <script src="./scripts/contact.js"></script>
+  <script src="../scripts/contact.js"></script>
 </body>
 </html>

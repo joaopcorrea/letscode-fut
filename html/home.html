@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width initial-scale=1.0" />
-  <meta name="description" content="Home page da FutCards, o card game para amantes de futebol." />
-  <title>Home - FutCards</title>
+  <meta name="description" content="Página inicial da FutCards, o card game para amantes de futebol." />
+  <title>Página Inicial - FutCards</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
-  <link rel="stylesheet" href="./styles/reset.css" />
-  <link rel="stylesheet" href="./styles/style-alternative.css" />
-  <link rel="stylesheet" href="styles/home-styles.css" />
-  <link rel="stylesheet" href="styles/cards/card-styles.css" />
-  <link rel="stylesheet" href="styles/cards/club-styles.css" />
-  <link rel="stylesheet" href="styles/cards/nation-styles.css" />
-  <link rel="stylesheet" href="styles/cards/picture-styles.css" />
-  <link rel="stylesheet" href="styles/cards/cardtype-styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/reset.css" />
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link rel="stylesheet" href="../styles/stylehome.css" />
+  <link rel="stylesheet" href="../styles/cards/stylecard.css" />
+  <link rel="stylesheet" href="../styles/cards/styleclub.css" />
+  <link rel="stylesheet" href="../styles/cards/stylenation.css" />
+  <link rel="stylesheet" href="../styles/cards/stylepicture.css" />
+  <link rel="stylesheet" href="../styles/cards/stylecardtype.css" />
 </head>
-
 <body>
   <header>
-    <img src="./images/logo.png" alt="FutCards" class="header__image" />
+    <img src="../images/logo.png" alt="FutCards" class="header__image" />
     <nav>
       <a href="./home.html">Home</a>
       <a href="./prices.html">Preços</a>
@@ -36,12 +32,12 @@
   </header>
   <main>
     <section class="page-description">
-      <h1>FUTCARDS</h1>
+      <h1>FutCards</h1>
       <p>FutCards: O card game para amantes de futebol.</p>
       <p>Visualizador e editor de cards em tempo real.</p>
       <h2>Cards mais recentes</h2>
     </section>
-    <section class="card-list" id="nossaMissao">
+    <section class="card-list" id="cardList">
       <a href="./players/pele.html" style="text-decoration: none;">
         <div class="item">
           <div class="card cardtype-icon">
@@ -56,7 +52,7 @@
             <div class="picture">
               <img class="pele">
             </div>
-            <div class="name">Pele</div>
+            <div class="name">Pelé</div>
             <div class="attributes">
               <div class="pac">
                 <div class="attnum">96</div>
@@ -427,7 +423,7 @@
             <div class="picture">
               <img class="mbappe">
             </div>
-            <div class="name">Mbappe</div>
+            <div class="name">Mbappé</div>
             <div class="attributes">
               <div class="pac">
                 <div class="attnum">97</div>
@@ -639,7 +635,7 @@
             <div class="picture">
               <img class="vinicius">
             </div>
-            <div class="name">Vinicius</div>
+            <div class="name">Vinícius</div>
             <div class="attributes">
               <div class="pac">
                 <div class="attnum">95</div>
@@ -692,7 +688,7 @@
             <div class="picture">
               <img class="sergio-ramos">
             </div>
-            <div class="name">Sergio Ramos</div>
+            <div class="name">Sérgio Ramos</div>
             <div class="attributes">
               <div class="pac">
                 <div class="attnum">61</div>
@@ -745,7 +741,7 @@
             <div class="picture">
               <img class="joao-felix">
             </div>
-            <div class="name">Felix</div>
+            <div class="name">Félix</div>
             <div class="attributes">
               <div class="pac">
                 <div class="attnum">83</div>
@@ -896,17 +892,16 @@
     <nav>
       <a href="./home.html">Home</a>
       <a href="./prices.html">Preços</a>
-      <a href="./contact.html">Fale Conosco</a>
+      <a href="./contact.html">Contato</a>
       <a href="./login.html">Sair</a>
     </nav>
-    <a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><img src="./images/twitter-logo.png"
+    <a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><img src="../images/twitter-logo.png"
         alt="Twitter" class="footer__image" /></a>
-    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="./images/facebook-logo.png"
+    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="../images/facebook-logo.png"
         alt="Facebook" class="footer__image" /></a>
-    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="./images/instagram-logo.png"
+    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="../images/instagram-logo.png"
         alt="Instagram" class="footer__image" /></a>
     <p>&copy; 2022 FutCards</p>
   </footer>
 </body>
-
 </html>

@@ -8,7 +8,7 @@ function tryLogin(event) {
     response.id = "response";
     if (validateLogin()) {
         if (validatePassword()) {
-            document.location = 'home.html';
+            document.location = './home.html';
         } else {
             response.innerHTML = "Senha inválida.";
         }

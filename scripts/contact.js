@@ -1,5 +1,6 @@
 const name1 = document.getElementById("name");
 const email = document.getElementById("email");
+const subject = document.getElementById("subject");
 const message = document.getElementById("message");
 const contact = document.getElementById("contact");
 const response = document.createElement("p");
@@ -9,27 +10,54 @@ function sendMessage(event) {
   response.id = "response";
 
   if (validateMessage()) {
-    if (validateName()) {
-      if (validateEmail(email.value) && validateEmailLenght(email)) {
-        response.innerHTML = "Obrigado pelo contato, " + name1.value.split(" ")[0] + "!";
+    if (validateSubject()) {
+      if (validateName()) {
+        if (validateEmail(email.value) && validateEmailLenght(email)) {
+          let payload = {
+            "sendTo": email.value,
+            "subject": subject.value,
+            "message": message.value
+          };
+          fetch("/sendemail", {
+            headers: {
+              'Accept': 'application/json, text/plain, */*',
+              'Content-Type': 'application/json'
+            },
+            method: "POST",
+            body: JSON.stringify(payload)
+          })
+            .then(function (res) {
+              return res.json();
+            })
+            .then(function (data) {
+              JSON.stringify(data);
+            });
+          responseMessage();
+        } else {
+          response.innerHTML = "Endereço de e-mail inválido.";
+        }
       } else {
-        response.innerHTML = "Erro no envio: Endereço de e-mail inválido!";
+        response.innerHTML = "Insira o seu nome.";
       }
     } else {
-      response.innerHTML = "Erro no envio: Insira o seu nome!";
+      response.innerHTML = "Insira um assunto.";
     }
   } else {
-    response.innerHTML = "Erro no envio: Insira uma mensagem!";
+    response.innerHTML = "Insira uma mensagem.";
   }
   contact.appendChild(response);
 }
 
-function validateName() {
-  return name1.value ? true : false;
-}
-
 function validateMessage() {
   return message.value ? true : false;
+}
+
+function validateSubject() {
+  return subject.value ? true : false;
+}
+
+function validateName() {
+  return name1.value ? true : false;
 }
 
 function validateEmail(email) {
@@ -49,4 +77,8 @@ function validateEmailLenght(email) {
     domain.length <= 16
     ? true
     : false;
+}
+
+function responseMessage() {
+  return response.innerHTML = "Obrigado pelo contato, " + name1.value.split(" ")[0] + "!";
 }

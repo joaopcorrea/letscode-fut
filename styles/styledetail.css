@@ -32,10 +32,6 @@ height: 100%;
   font-size: 24px;
 }
 
-.player-type {
-
-}
-
 .nation, .club {
   display: flex;
   align-items: center;
